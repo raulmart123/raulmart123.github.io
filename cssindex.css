@@ -19,7 +19,41 @@ body {
     background-image: url(IMG/Fondoasd.jpg);
     font-family: Arial, sans-serif;
 }
+.resolution{
+    width: 99%
+    text-align: center;
 
+}
+
+@media (max-width: 767px){
+    .desktop {
+        display: none;
+    }
+    .tablet{
+        display: none;
+    }
+
+}
+
+@media (max-width: 767px) and (max-width: 990px) {
+    .desktop {
+        display: none;
+    }
+    .movil{
+        display: none;
+    }
+
+}
+
+@media (max-width: 991px) {
+    .tablet {
+        display: none;
+    }
+    .movil {
+        display: none;
+    }
+
+}
 h1{
     font-size: 40px;
     font-weight: 900;
